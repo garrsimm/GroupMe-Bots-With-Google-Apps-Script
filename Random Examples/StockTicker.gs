@@ -1,4 +1,4 @@
-var botId = "f5faa748cc0ea3bb6d9fca2405";
+var botId = "e4910257f05fd5e89d32de19f0";
 
 function sendText(text){
   UrlFetchApp.fetch("https://api.groupme.com/v3/bots/post", {"method":"post", "payload":'{"bot_id":"' + botId + '","text":"' + text + '"}'});
